@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ohtuesimerkki.StatisticsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-03-23T12:24:50" hostname="da5-cs-b221-17" time="0.005">
+<testsuite name="ohtuesimerkki.StatisticsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-03-23T12:34:47" hostname="da5-cs-b221-17" time="0.006">
   <properties/>
-  <testcase name="teamTestOikeaPelaaja" classname="ohtuesimerkki.StatisticsTest" time="0.004"/>
-  <testcase name="teamTestOikeaMaaraPelaajia" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
-  <testcase name="searchTest" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
-  <testcase name="searchTestNull" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="searchTest" classname="ohtuesimerkki.StatisticsTest" time="0.005"/>
+  <testcase name="searchNullTest" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="teamOikeaMaaraPelaajiaTest" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="topScorersOikeaNimiTest" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="teamOikeaPelaajaTest" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

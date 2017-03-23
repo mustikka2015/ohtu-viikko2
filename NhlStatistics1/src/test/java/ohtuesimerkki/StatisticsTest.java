@@ -43,28 +43,36 @@ public class StatisticsTest {
     }
 
     @Test
-    public void searchTestNull() {
+    public void searchNullTest() {
         Player pelaaja = stats.search("Selanne");
 
         assertEquals(null, pelaaja);
     }
-    
+
     @Test
-    public void teamTestOikeaMaaraPelaajia() {
+    public void teamOikeaMaaraPelaajiaTest() {
         String joukkue = "EDM";
         List<Player> testilista = stats.team(joukkue);
         int koko = testilista.size();
         assertEquals(3, koko);
-        
+
     }
-    
+
     @Test
-    public void teamTestOikeaPelaaja() {
+    public void teamOikeaPelaajaTest() {
         String joukkue = "PIT";
         List<Player> testilista = stats.team(joukkue);
         String nimi = testilista.get(0).getName();
         assertEquals(nimi, "Lemieux");
-        
+
     }
+
+    @Test
+    public void topScorersOikeaNimiTest() {
+        List<Player> parhaat = stats.topScorers(1);
+        String nimi = parhaat.get(0).getName();
+        assertEquals(nimi, "Gretzky");
+    }
+
 
 }
